@@ -16,9 +16,10 @@ body {
 .subtitle-main {
     margin: 20px 10px 20px 10px;
     font-size: 30px;
-    color: #ffeb47;
+    color: #ffffff;
     text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.8);
     text-align: center;
+    opacity: 1;
 }
 
 .block-title {
@@ -68,7 +69,7 @@ body {
     font-size: 48px;
     text-align: center;
     color: red;
-    font-weight: bold;
+    font-weight: bolder;
     text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -82,7 +83,9 @@ body {
     padding: 15px 30px;
     text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.15);
     font-weight: bold;
+}
+
+.button-red {
     background: red;
-    color: #fff;
-    text-align: center;
+    color: white;
 }

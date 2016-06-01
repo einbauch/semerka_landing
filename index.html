@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Продам семерку!</title>
+    <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="parallax.js-1.4.2/parallax.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/text.css">
@@ -11,8 +13,8 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-<div class="main">
-    <div class="header">
+<div class="main" id="top">
+    <div class="header" data-parallax="scroll" data-image-src="img/header_bg.jpg">
         <div class="container">
             <h1 class="title-main">ПРОДАМ CЕМЁРКУ</h1>
             <div class="column-33">
@@ -25,7 +27,7 @@
                 <h2 class="subtitle-main text-center">Самурай, преданный до последнего вздоха!</h2>
             </div>
             <div class="text-center">
-                <a href="#buy" class="button">Купить</a>
+                <a href="#buy" class="button button-red">Купить</a>
             </div>
         </div>
     </div>
@@ -81,7 +83,7 @@
                 <p class="price">ВСЕГО</p>
                 <p class="price">40&nbsp;000 рублей</p>
                 <div class="text-center">
-                    <a href="#" class="button">Купить</a>
+                    <a href="#" class="button button-red">Купить</a>
                 </div>
             </div>
         </div>
