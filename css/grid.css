@@ -1,0 +1,42 @@
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    overflow:auto;
+    padding-bottom: 100px;
+}
+
+.container:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.column-40 {
+    width: 40%;
+    float: left;
+}
+
+.column-60 {
+    width: 60%;
+    float: left;
+}
+
+.column-33 {
+    width: 33.3%;
+    float: left;
+    background: #555555;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
+.сar-image {
+    width: 100%;
+    height:auto;
+    border-radius: 10px;
+}

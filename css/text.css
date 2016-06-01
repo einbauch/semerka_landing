@@ -1,0 +1,88 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.title-main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 72px;
+    color: #ffffff;
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.subtitle-main {
+    margin: 20px 10px 20px 10px;
+    font-size: 30px;
+    color: #ffeb47;
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.block-title {
+    font-size: 36px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: grey;
+}
+
+.text-large {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-main {
+    font-size: 16px;
+    line-height: 24px;
+    text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+.text-box {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.list-main {
+    list-style: square inside;
+    margin-left: 20px;
+}
+
+.price {
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 15px 30px;
+    text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+    background: red;
+    color: #fff;
+    text-align: center;
+}
