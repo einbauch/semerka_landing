@@ -39,3 +39,24 @@
     height:auto;
     border-radius: 10px;
 }
+
+@media (max-width: 960px) {
+    .column-33 {
+        float:none;
+        width: auto;
+    }
+    
+}
+
+@media (max-width: 640px) {
+    .column-40,
+    .column-60 {
+        float:none;
+        width: auto;
+    }
+    
+    .main {
+        padding-bottom: 0;
+    }
+
+}
